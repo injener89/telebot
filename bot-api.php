@@ -55,7 +55,8 @@ switch($message) {
     break;
   default:
     break;
-}
+}  
+
 
 /**
  * Функция отправки сообщения sendMessage().
