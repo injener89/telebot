@@ -46,8 +46,6 @@ switch($message) {
     $preload_text = 'Одну секунду, ' . $first_name . ' ' . $emoji['preload'] . ' Я уточняю для вас погоду..';
     sendMessage($chat_id, $preload_text);
     // API key для OpenWeatherMap.
-    
-    
     // Формирование ответа.
     $weather_text = 'Сейчас в Ташкенте. Температура воздуха: 31°C. Ветер  10м/сек.';
     // Отправка ответа пользователю Telegram.
