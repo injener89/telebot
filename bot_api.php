@@ -1,3 +1,4 @@
 <?php
-echo "Im Bot. Hi dear user <br>";
-echo "Im Bot. Hi dear user";
+
+echo '{"ok":false,"error_code":404,"description":"[Error : 404 : Method not found]"}';
+?>
