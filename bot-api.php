@@ -37,7 +37,7 @@ $emoji = array(
 
 /**
  * Получаем команды от пользователя.
- */
+ */  
 switch($message) {
   // API погоды предоставлено OpenWeatherMap.
   // @see http://openweathermap.org
