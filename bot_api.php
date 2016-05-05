@@ -7,4 +7,5 @@ $updateArray = json_decode($update,TRUE);
 $chatId = $updateArray["result"][0]["message"]["chat"]["id"];
 
 $update = file_get_contents($url."/sendmessage?chat_id=".$chatId."&text=Maxalchik");
+
 ?>
