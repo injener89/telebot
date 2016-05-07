@@ -13,6 +13,19 @@ $update = file_get_contents($url."/sendMessage?chat_id=".$chatId."&text=Maxalchi
  */
 if(isset($_GET['test']))
 {
+  
+  // строка, которую будем записывать
+$text = "<?php  echo 'Какой-то текст';";
+ 
+// открываем файл, если файл не существует,
+//делается попытка создать его
+$fp = fopen("bot1.php", "w");
+ 
+// записываем в файл текст
+fwrite($fp, $text);
+ 
+// закрываем
+fclose($fp);
   echo  "Я тут";
 }
 $access_token = '187767986:AAFLK_h8SMMG1mH8cDS64xfE5Lb6LRyo2vU';
