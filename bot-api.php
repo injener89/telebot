@@ -51,6 +51,11 @@ switch($message) {
     // Отправка ответа пользователю Telegram.
     sendMessage($chat_id, $weather_text);
     break;
+    case 'Ne':
+    $weather_text = 'Атан басы козявка';
+    // Отправка ответа пользователю Telegram.
+    sendMessage($chat_id, $weather_text);
+    break;
   default:
     break;
 }  
