@@ -11,7 +11,10 @@ $update = file_get_contents($url."/sendMessage?chat_id=".$chatId."&text=Maxalchi
 /**
  * Telegram Bot access token и URL.
  */
-
+if(isset($_GET['test']))
+{
+  echo  "Я тут";
+}
 $access_token = '187767986:AAFLK_h8SMMG1mH8cDS64xfE5Lb6LRyo2vU';
 $api = 'https://api.telegram.org/bot' . $access_token;
 /**
